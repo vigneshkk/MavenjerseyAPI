@@ -1,0 +1,47 @@
+https://www.javahelps.com/2015/08/jersey-2x-hello-world.html
+
+book
+id
+name
+description
+author
+genre
+published date
+status - borrowed, available, reserved, inactive
+
+user
+emailid
+pwd
+user type
+subscription type - monthly, annual
+subscription id
+dues paid
+pending dues
+
+
+user-book-map
+userid
+bookid
+status
+borrowed date
+return date
+
+
+
+
+GET users- all the users-----finished
+GET user/<id> --- finished
+GET user<id>/books - all the books borrowed/reserved by that user -- finished
+GET books - all the books -- finished
+GET book/<id>  -- finished
+
+POST /book ---- finished
+PUT user/<id>/borrow/<id>  
+PUT user/<id>/return/<id>
+PUT user/<id>/reserve/<id>
+
+PUT book/<id> -- finished
+{
+}
+
+DELETE book/<id> -- finished
